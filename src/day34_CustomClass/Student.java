@@ -19,7 +19,12 @@ public class Student {
     }
 
 
+    public String toString(){
+        return "Name: "+name+", gender: "+gender
+                +", nationality: "+nationality
+                +", age"+age+", married: "+married;
 
+    }
 
 
 
