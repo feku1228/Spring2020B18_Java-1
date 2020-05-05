@@ -20,6 +20,7 @@ public class StudentsObjects {
 
         Student[] students = {student1, student2, student3, student4};
 
+
         ArrayList<Student> canGraduate = new ArrayList<>( Arrays.asList(students) );
         canGraduate.removeIf( p -> p.gpa <= 3.0 );
 
