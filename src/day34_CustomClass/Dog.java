@@ -16,8 +16,8 @@ public class Dog {
         System.out.println(name+" is drinking "+drink);
     }
 
-    public void playing(){
-        System.out.println(name+" is playing");
+    public void playing(String toy){
+        System.out.println(name+" is playing "+toy);
     }
 
     public void setDogInfo(String breed, String size, int age, String color, String name){
