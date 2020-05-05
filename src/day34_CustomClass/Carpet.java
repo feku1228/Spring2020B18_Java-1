@@ -29,4 +29,11 @@ public class Carpet {
 
     // (w+l)*unitPrice
 
+    public String toString(){
+        return "width: "+width+
+                "\nlength: "+length+
+                "\nunit price "+unitPrice+
+                "\ncosts "+calcCost();
+    }
+
 }
