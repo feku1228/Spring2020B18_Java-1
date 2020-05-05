@@ -32,8 +32,8 @@ public class Carpet {
     public String toString(){
         return "width: "+width+
                 "\nlength: "+length+
-                "\nunit price "+unitPrice+
-                "\ncosts "+calcCost();
+                "\nunit price $"+unitPrice+
+                "\nTotal costs $"+calcCost();
     }
 
 }
