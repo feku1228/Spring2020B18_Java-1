@@ -22,5 +22,10 @@ public class Tester {
         this.salary = salary;
     }
 
+    public String toString(){
+        return "Name: "+name+", job Title: "+jobTitle
+                +", employee id: "+employeeID+", salary: "+salary;
+    }
+
 
 }
