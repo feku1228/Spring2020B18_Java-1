@@ -19,6 +19,11 @@ public class Dog {
     }
 
 
+    public String toString(){
+        return "Dog Name: "+name+", breed: "+
+                breed+", size: "+size+", color:"+color+", age: "+age;
+    }
+
 
 
 }
