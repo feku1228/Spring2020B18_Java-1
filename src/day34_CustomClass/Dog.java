@@ -15,6 +15,7 @@ public class Dog {
        this.age = age;
        this.color = color;
        this.name = name;
+       // this keyword is used for calling object instance (instance variables)
     }
 
 
