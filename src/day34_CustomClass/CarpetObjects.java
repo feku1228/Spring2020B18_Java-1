@@ -31,7 +31,8 @@ public class CarpetObjects {
 
 
         ArrayList<Carpet> regularCarpets = new ArrayList<>(Arrays.asList(carpets) );
-        regularCarpets.removeAll(persianCarpets);
+        // regularCarpets.removeAll(persianCarpets);
+        regularCarpets.removeIf( p -> p.isPersian );
 
         System.out.println("There are "+regularCarpets.size()+" regular carpets");
 
