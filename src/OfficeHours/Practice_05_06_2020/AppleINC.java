@@ -12,13 +12,15 @@ public class AppleINC {
         Tester tester3 = new Tester();
         tester3.setInfo("Rahman","SDET",120000,22222);
 
-        ScrumTeam scrum1 = new ScrumTeam();
+        ScrumTeam scrum1 = new ScrumTeam(); // we can use the arraylists in scrumteam class
         scrum1.hireATester(tester3);
         scrum1.hireATester(tester1);
         scrum1.hireATester(tester2);
 
+        scrum1.fireATester(1245);
+
        // scrum1.testersTeam // returns the testersTeam arrayList form scrum1
-        for( Tester each   : scrum1.testersTeam){
+        for( Tester each   : scrum1.testersTeam){ // prints out everysingle tester from scrumteam
             System.out.println(each);
         }
 
