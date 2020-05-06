@@ -23,11 +23,19 @@ public class Tester {
     }
 
     public String toString(){
+
         return "Name: "+name+", job title: "+jobTitle
                 +", salary: $"+salary+", ID: "+employeeId;
     }
 
+    public void smokeTesting(){
+        System.out.println(name+" is doing smoke test");
+    }
 
+    public void creatingTicket(){
+
+        System.out.println( this.name +" is creating ticket on Jira");
+    }
 
 
 

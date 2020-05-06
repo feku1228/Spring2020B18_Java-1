@@ -17,6 +17,12 @@ public class TestersObject {
         System.out.println( tester2 );
 
 
+        tester1.smokeTesting();
+        tester2.smokeTesting();
+
+        tester2.creatingTicket();
+
+
     }
 
 }
