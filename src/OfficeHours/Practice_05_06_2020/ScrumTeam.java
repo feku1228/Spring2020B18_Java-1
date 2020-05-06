@@ -12,7 +12,7 @@ public class ScrumTeam {
     }
 
     public void fireATester(long id){
-        testersTeam.removeIf( p -> p.employeeId == id);
+        testersTeam.removeIf( eachTester -> eachTester.employeeId == id);
     }
 
 
