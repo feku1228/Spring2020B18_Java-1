@@ -8,6 +8,7 @@ public class ScrumTeam {
     ArrayList<Tester> testersTeam = new ArrayList<>();
 
     public void hireATester(Tester  tester){
+
         testersTeam.add(tester);
     }
 
