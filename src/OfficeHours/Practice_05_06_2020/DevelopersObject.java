@@ -1,5 +1,8 @@
 package OfficeHours.Practice_05_06_2020;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class DevelopersObject {
 
     public static void main(String[] args) {
@@ -28,7 +31,21 @@ public class DevelopersObject {
  */
 
         for(Developer each  : arr ){
-            System.out.println(each);
+            System.out.println(each.name+" "+each.salary);
+        }
+
+        System.out.println("=======================================================");
+        ArrayList<Developer> developers = new ArrayList<>( Arrays.asList(arr));
+        // developers.addAll(Arrays.asList( developer1,developer2 ) );
+
+        /*
+       for(int i=0; i < developers.size(); i++){
+           System.out.println(  developers.get(i).name );
+       }
+    */
+
+        for( Developer each : developers ){
+            System.out.println( each.name+" "+each.salary );
         }
 
 
