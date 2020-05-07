@@ -31,7 +31,7 @@ public class OfferObjects {
 
         Offer[] offers = {offer1, offer2, offer3, offer4};
 
-        String myLocation = "VA";
+        String myLocation = "VA";  // my current state
 
         ArrayList<Offer> Accept = new ArrayList<>( Arrays.asList(offers) );
        // Accept.removeIf(  p ->  p.salary < 100000 ||  p.isFullTime == false || !p.location.equals(myLocation)  ); // we remove the offer if it's less than 100K or not full time
