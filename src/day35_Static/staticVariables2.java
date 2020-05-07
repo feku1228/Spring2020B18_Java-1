@@ -22,7 +22,10 @@ public class staticVariables2 {
         System.out.println(  obj1.staticVariable );  // 400
         System.out.println( obj2.staticVariable );
 
+        System.out.println();
 
+        System.out.println( staticVariables2.staticVariable ); // static can be called through class name
+      //  System.out.println( staticVariables2.insVariable ); // instance CAN NOT be caleed through class name
 
 
     }
