@@ -27,6 +27,8 @@ public class Offer {
 
 
     public String toString(){
+        String salary = ""+this.salary;
+        // string now cna be maniupulated
         return "Location: "+location+
                 ", Company: " +company +
                 ", Salary: $"+salary +
