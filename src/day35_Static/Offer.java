@@ -26,6 +26,12 @@ public class Offer {
     }
 
 
+    public String toString(){
+        return "Location: "+location+
+                ", Company: " +company +
+                ", Salary: $"+salary +
+                ", Fulltime: "+isFullTime;
+    }
 
 
 
