@@ -12,6 +12,7 @@ public class StaticBlock {
 
     public static void method1(){
         System.out.println("Custom method executed");
+
     }
 
     static{
