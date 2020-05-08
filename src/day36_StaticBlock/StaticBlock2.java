@@ -19,7 +19,6 @@ public class StaticBlock2 {
 
     public static void main(String[] args) {
 
-        tester1.setTesterInfo("Jean", 123, "SDET", 120000);
         System.out.println(tester1);
     }
 
@@ -32,6 +31,9 @@ public class StaticBlock2 {
         }else{
             b= 200;
         }
+
+        tester1.setTesterInfo("Jean", 123, "SDET", 120000);
+
 
     }
 
