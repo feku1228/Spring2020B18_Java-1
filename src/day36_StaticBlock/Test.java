@@ -6,6 +6,9 @@ public class Test {
 
         System.out.println( StaticBlock2.tester1 );
 
+        System.out.println(staticBlock3.name );
+        System.out.println(staticBlock3.num);
+
 
     }
 }
