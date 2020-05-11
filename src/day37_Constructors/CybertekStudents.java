@@ -19,6 +19,23 @@ public class CybertekStudents {
                 ", in group: "+groupNumber+", School name: "+schoolName;
     }
 
+}
 
+
+class CObjects{
+
+    public static void main(String[] args) {
+        CybertekStudents student1 = new CybertekStudents("Drar", 3,"Batch 18");
+
+        System.out.println(student1);
+
+        CybertekStudents student2 = new CybertekStudents("Sarah", 12, "Batch 18");
+
+        System.out.println(student2);
+
+    }
 
 }
+
+
+
