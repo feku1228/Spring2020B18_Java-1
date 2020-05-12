@@ -19,9 +19,13 @@ public class Circle {
                   perimeter: diameter * PI
      */
 
-    static double PI = 3.14;
+    static double PI;
     double radius;
     double diameter;
+
+    static{
+        PI = 3.14;
+    }
 
     public Circle(double radius){
         this.radius = radius;
