@@ -31,7 +31,7 @@ public class SalaryCalculator {
     }
 
     public double salary(){ // annual income
-        return hourlyRate * weeklyHours * 48 ;
+        return hourlyRate * weeklyHours * 52 ;
     }
 
     public double stateTax(){ // total tax paid to the state
@@ -52,7 +52,7 @@ public class SalaryCalculator {
                 "\nGross Salary: $"+salary()+
                 "\nState Tax: $"+stateTax()+
                 "\nFederal Tax: $"+ federalTax()+
-                "Net Salary: $"+salaryAfterTax();
+                "\nNet Salary: $"+salaryAfterTax();
     }
 
 
