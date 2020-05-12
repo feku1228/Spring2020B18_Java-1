@@ -4,6 +4,7 @@ package day38_Constructors;
                 instance variables:
                     name, unitPrice, quantity
                 add a constructor that can initialize the fields
+
                 instance methods:
                     calcCost(): returns the total cost as double
                                 hint: quantity * unitPrice
