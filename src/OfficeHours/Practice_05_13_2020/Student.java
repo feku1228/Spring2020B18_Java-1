@@ -30,6 +30,8 @@ class studentObjects{
                 student2.name = "Emrah";
                 student2.id = 456;
 
+                student1.schoolName = "Harvard";
+            student2.name = "Namik";
 
         System.out.println(student1);
         System.out.println(student2);
