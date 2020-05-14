@@ -32,6 +32,7 @@ public class Car {
        // this.brand = brand;
         this.model = model;
 
+
     }
 
     public Car(String brand, String model, int year){
