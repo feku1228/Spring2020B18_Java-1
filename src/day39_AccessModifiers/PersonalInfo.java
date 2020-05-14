@@ -9,6 +9,7 @@ task:
                     private: grade, SSN, id, age
 
  */
+
 public class PersonalInfo {
 
     public static String name = "Zuura";
