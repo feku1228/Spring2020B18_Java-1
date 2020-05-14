@@ -11,12 +11,15 @@ task:
  */
 public class PersonalInfo {
 
-    public String name = "Zuura";
-    public char gender = 'F';
+    public static String name = "Zuura";
+    public static char gender = 'F';
 
-    private char grade = 'A';
-    private long SSN = 901234;
-    private long ID = 9876543;
+    static char grade = 'A';
+    static int age = 18;
+
+    private static long SSN = 901234;
+    private static long ID = 9876543;
+
 
 
 
